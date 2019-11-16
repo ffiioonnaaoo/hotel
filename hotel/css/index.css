@@ -1,0 +1,64 @@
+/* 
+*{
+    border:solid 1px pink;
+} */
+
+ #index-body {
+     font-family: 'Montserrat', sans-serif;
+     background-color: #A7D1DF;
+     padding: 0;
+     margin: 0;
+ }
+
+ nav {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 0 40px 0 40px;
+margin: 20px 50px 0 50px
+   
+ }
+
+
+
+ nav a {
+     color: #324F4D;
+     text-decoration: none;
+     font-weight: 900;
+     padding: 0 20px 0 20px;
+  
+ }
+
+ #logo {
+     height: 50px;
+
+ }
+
+
+ #grand-bud-image {
+     width: 70%;
+     height: auto;
+ }
+
+ #home-container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+  #home-btn {
+     width: 30vw;
+     margin: 10px;
+     padding: 10px;
+     border: none;
+     color: #A7D1DF;
+     font-weight: bold;
+     font-size: 1.5em;
+     cursor: pointer;
+     background-color: #324F4D;;
+
+ }
+
+ 

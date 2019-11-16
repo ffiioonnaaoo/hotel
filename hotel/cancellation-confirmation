@@ -1,0 +1,4 @@
+<?php
+$iReservationId = $_GET['reservation-id'] ?? '';
+echo  $iReservationId.' has been cancelled! back to admin page';
+?>

@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size:16px;
+    line-height: 1.375em;
+    opacity: 0.5;
+}
+
+h1{
+     font-size:36px;
+      line-height: 1.05em;
+}
+body {
+    width: 100%;
+    
+    background-color:#F7F8F9;
+    opacity:5;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 100%;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#frmSearchRooms {
+   margin: 30px 150px 30px 150px;
+
+ padding: 10px;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    text-align: left;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    /* border: 1px solid #e0e0e0; */
+
+}
+
+.search-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+ input {
+     font-size:16px;
+    margin: 8px 0;
+    padding: 15px 10px;
+    width: 100%;
+    outline: none;
+ border: 1px solid #000; 
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline-block;
+
+}
+
+
+
+ .book-btn {
+     width: 18vw;
+     padding: 10px;
+     border: none;
+     color: #A7D1DF;
+     font-weight: bold;
+     font-size: 1.25em;
+     cursor: pointer;
+     background-color: #324F4D;
+ }
+ .book-btn2 {
+     width: 100%;
+     padding: 10px;
+     border: none;
+     color: #A7D1DF;
+     font-weight: bold;
+     font-size: 1.25em;
+     cursor: pointer;
+     background-color: #324F4D;
+ }
+select{
+       height: 30px;
+           width: 100%;
+           border: 1px solid #000;
+              margin: 8px 0;
+         
+ 
+}
+
+h1{
+    text-align: center;
+}
+.room-info-cont{
+display: flex;
+flex-direction: row;
+}
+.room-info{
+   
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    text-align: left;
+     margin: 30px;
+     padding: 10px;
+    justify-content: center;
+
+}
+.text-info{
+  display: flex;
+flex-direction: row;
+}
+.room-img{
+  height:200px;
+  width:auto;
+
+}
+.room-desc-container {
+     margin: 30px 150px 30px 150px;
+      padding: 10px;
+
+      background: #fff;
+}
+
+.button-desc{
+    display: flex;
+    flex-direction: column;
+}
+.room-desc-container{
+    padding:10px;
+}
+/* datepicker css */
+
+.ui-datepicker {
+    font-size: 11px;
+    width: 300px;
+}
+
+.ui-datepicker table td {
+    text-align: center;
+}
+
+.ui-datepicker a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+
+.ui-datepicker-next {
+    float: right;
+}
+
+.form input{
+    width:100%;
+    height:10px;
+}
+
+.swal-footer {
+    text-align: center;
+   
+}
+/* admin */
+
+/* Custom CSS */
+/* No need to copy */
+table {
+width:100%;
+padding:2vw 2vw 0 2vw;
+
+ background-color: #fff;
+}
+
+table tbody tr:nth-child(2n) {
+    background-color: #f4f4f4;
+}
+
+
+table th {
+    font-weight: bold;
+      border-bottom: 1px solid grey;
+}
+
+table td,
+table th {
+    padding: 10px 0 10px 0;
+    text-align: left;
+}
+#booking-main{
+    margin-top:10px;
+      display:flex;
+      flex-direction:row;
+        justify-content: space-around;
+}
+
+.your-room-detail{
+    width:30vw;
+}
+.booking-form{
+    width:50%;
+  
+    margin:20px;
+}
+
+/* end of admin */
+
+/* book room page */
+#book-room-container{
+    display:flex;
+    flex-direction:row;
+     justify-content: space-between;
+    
+}
+#book-room-container section{
+ 
+    padding:0 50px 0 50px;
+       margin: 30px;
+       padding: 10px;
+       height: auto;
+       overflow: hidden;
+       background: #fff;
+       text-align: left;
+    
+ 
+}
+
+.form {
+    width: 70vw;
+    margin-left: 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.details {
+    margin:0 60px 0 40px;
+     background-color: #fff;
+     padding:20px
+}
+.desc-cont{
+     display: flex;
+     flex-direction: column;
+
+}
+.book-room-img {
+width: 100%;
+height:auto;
+}
+/* end book room */
+
+.search-button {
+    padding: 15px 10px;
+
+    
+    border: none;
+    color: #A7D1DF;
+    font-weight: bold;
+    font-size: 1.25em;
+    cursor: pointer;
+    background-color: #324F4D;
+}
+.admin-button{
+  padding:15px 10px;
+  
+  width:100%;
+      border: none;
+      color: #A7D1DF;
+      font-weight: bold;
+      font-size: 1.25em;
+      cursor: pointer;
+      background-color: #324F4D;
+}
+#frmSearchName{
+   display:flex;
+   flex-direction: row;
+   width:36vw;
+   margin:30px 0 20px 20px;
+}
+#frmSearchName input{
+    margin:0 10px;
+}
+
+#login-form {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+margin:3vw 30vw 0 30vw;
+}
+
+/* confirmation */
+.notification {
+   
+margin: 3vw 10vw 0 10vw;
+    background-color: #74BBAA;
+padding:20px;
+
+    text-align:center;
+  
+}
+.confirmation-detail {
+     margin: 3vw 10vw 0 10vw;
+     background-color: #fff;
+     padding:20px;
+
+  
+}
+.details {
+    margin: 0 60px 0 40px;
+    background-color: #fff;
+    padding: 20px
+}
+
+.cancel-btn{
+  width: 18vw;
+  padding: 10px;
+  border: none;
+  color: #A7D1DF;
+  font-weight: bold;
+  font-size: 1.25em;
+  cursor: pointer;
+  background-color: #B61218;
+}
+#txtCountry {
+        height: 30px;
+    width: 100%;
+    border: 1px solid #000;
+    margin: 8px 0;
+}
